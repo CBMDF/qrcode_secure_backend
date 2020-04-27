@@ -14,11 +14,11 @@ const salt = "asdfb351fd6g12kfghd#$ASDVdf4fsd"; // Random data
 const password = "sdfasdf@#%ff2qfgsdf4asdfA";
 const symmetric_passphrase = "sdafdf$%Dsdfrwt24r52ad";
 
-const publicKey = ``;
 
-const privateKey = ``;
+module.exports = { salt, password, symmetric_passphrase };
 
-module.exports = { salt, password, privateKey, publicKey };
+Insert a file a private.pem file and a public.pem file
+
 
 Run in the terminal (Windows ou Linux):
 
