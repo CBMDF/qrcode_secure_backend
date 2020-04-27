@@ -32,7 +32,7 @@ const outputEncoding = "base64"; // Codificação da Saída
 /**
  * Gera um QRCode a partir do conteúdo do parâmetro data em POST.
  */
-app.post("/qrcode", (req, res) => {
+app.get("/qrcode", (req, res) => {
   (async () => {
     try {
       const QRCode = require("qrcode");
